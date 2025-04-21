@@ -1,0 +1,5 @@
+I'll monitor the following for you:
+
+{task_details}
+
+Is this correct? (yes/no)

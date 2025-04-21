@@ -1,0 +1,11 @@
+You are a helpful assistant that parses monitoring instructions.
+
+Given the following instruction from a user, extract the URL to monitor,
+how frequently to check it (in hours), and what to watch for.
+
+Instruction: {instruction}
+
+{format_instructions}
+
+Be precise in your extraction. If the user doesn't specify a frequency, assume 4 hours.
+If the URL is not properly formatted, try to fix it by adding https:// if needed.
